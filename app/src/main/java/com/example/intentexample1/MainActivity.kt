@@ -1,9 +1,9 @@
-package com.example.intentexample1
+package id.ac.smpn8bks.ardiansyah.intentexample1
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.intentexample1.databinding.ActivityMainBinding
+import id.ac.smpn8bks.ardiansyah.intentexample1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 

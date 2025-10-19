@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.intentexample1">
+    package="id.ac.smpn8bks.ardiansyah.intentexample1">
 
     <application
         android:allowBackup="true"
@@ -11,11 +11,11 @@
         android:theme="@style/Theme.IntentExample1">
 
         <!-- Activity Kedua -->
-        <activity android:name=".SecondActivity" />
+        <activity android:name="id.ac.smpn8bks.ardiansyah.intentexample1.SecondActivity" />
 
         <!-- Activity Utama (punya intent-filter → wajib exported) -->
         <activity
-            android:name=".MainActivity"
+            android:name="id.ac.smpn8bks.ardiansyah.intentexample1.MainActivity"
             android:exported="true">   <!-- ✅ tambahkan ini -->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.intentexample1"
+    namespace = "id.ac.smpn8bks.ardiansyah.intentexample1"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.intentexample1"
+        applicationId = "id.ac.smpn8bks.ardiansyah.intentexample1"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -27,7 +27,6 @@ android {
         }
     }
 
-    // Tambahkan blok buildFeatures
     buildFeatures {
         viewBinding = true
     }
